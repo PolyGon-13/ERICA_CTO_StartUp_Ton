@@ -1,2 +1,2 @@
 ## ERICA_CTO_StartUp_Ton
-[![YouTube](https://img.shields.io/badge/Website-Link-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://youtu.be/AyfYfBuC5mg?si=Zskge91QgUSFlPCs)
+[![Unity 시뮬레이션](https://img.shields.io/badge/Unity%20시뮬레이션-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=AyfYfBuC5mg)
