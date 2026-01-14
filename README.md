@@ -1,2 +1,2 @@
 ## ERICA_CTO_StartUp_Ton
-- 제품 홈페이지
+[![Website](https://img.shields.io/badge/Website-Link-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://polygon-13.github.io/ERICA_CTO_StartUp_Ton/)
