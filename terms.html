@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이용약관 | AUTOSLOT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .terms-content {
+            padding: 120px 0;
+            min-height: 80vh;
+        }
+
+        .terms-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+
+        .terms-box {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            line-height: 1.8;
+            color: #333;
+        }
+
+        .terms-box h2 {
+            font-size: 1.5rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: #111;
+        }
+
+        .terms-box p {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">AUTOSLOT</a>
+            <div class="nav-links">
+                <a href="index.html#features">기능</a>
+                <a href="index.html#solution">솔루션</a>
+                <a href="purchase.html" class="btn-primary-sm">문의하기</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container terms-content">
+        <h1>이용약관</h1>
+        <div class="terms-box">
+            <h2>제1조 (목적)</h2>
+            <p>이 약관은 회사(이하 "AUTOSLOT")가 제공하는 주차장 빈자리 유도 로봇 및 관련 제반 서비스(이하 "서비스")의 이용과 관련하여 회사와 회원의 권리, 의무 및 책임사항을 규정함을
+                목적으로 합니다.</p>
+
+            <h2>제2조 (용어의 정의)</h2>
+            <p>"서비스"란 AUTOSLOT이 제공하는 웹사이트, 모바일 웹, 그리고 현장의 주차 유도 로봇을 통한 주차 편의 서비스를 의미합니다.</p>
+            <p>"이용자"란 본 약관에 따라 회사가 제공하는 서비스를 받는 자를 말합니다.</p>
+            <p>"주차 로봇"이란 주차장 내에서 차량의 위치를 인식하고 빈 주차면으로 안내 서비스를 수행하는 자율주행 장치를 말합니다.</p>
+
+            <h2>제3조 (서비스의 제공 및 변경)</h2>
+            <p>회사는 다음과 같은 서비스를 제공합니다.<br>
+                - 주차장 실시간 빈자리 정보 제공<br>
+                - 주차 유도 로봇을 통한 경로 안내<br>
+                - 차량 위치 확인 서비스<br>
+                - 기타 회사가 정하는 업무</p>
+            <p>회사는 로봇의 유지보수, 기술적 사양의 변경 등의 사유로 장차 체결되는 계약에 의해 제공할 서비스의 내용을 변경할 수 있습니다.</p>
+
+            <h2>제4조 (회사의 의무)</h2>
+            <p>회사는 주차 유도 로봇의 안정적인 구동을 위해 노력하며, 로봇 오작동으로 인한 이용자의 불편을 최소화합니다.</p>
+            <p>회사는 이용자의 개인정보 및 위치정보를 보호하기 위해 보안 시스템을 구축합니다.</p>
+
+            <h2>제5조 (이용자의 의무)</h2>
+            <p>이용자는 주차장 내에서 로봇의 안내를 참조하되, 최종적인 안전 운전의 책임은 운전자 본인에게 있습니다.</p>
+            <p>이용자는 고의로 주차 로봇의 주행을 방해하거나 파손하는 행위를 하여서는 안 됩니다.</p>
+
+            <h2>제6조 (책임의 제한)</h2>
+            <p>회사는 천재지변, 통신망의 장애, 또는 이용자의 귀책사유(운전 미숙, 전방 주시 태만 등)로 인한 사고에 대해서는 법적 책임을 지지 않습니다. 로봇은 보조적인 안내 수단일 뿐이며, 주행의
+                모든 판단은 운전자에게 있습니다.</p>
+        </div>
+    </div>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo">AUTOSLOT</span>
+                    <p>대한민국 경기도 안산시 상록구 한양대학로 55</p>
+                </div>
+                <div class="footer-links">
+                    <a href="privacy.html">개인정보 처리방침</a>
+                    <a href="terms.html" style="color: white; font-weight: bold;">이용약관</a>
+                    <a href="#" onclick="openContactModal(event)">고객센터</a>
+                    <a href="company.html">회사 소개</a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2026 AUTOSLOT Inc. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <div id="contact-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="btn-close-modal" onclick="closeContactModal()">&times;</button>
+            <div class="modal-header">
+                <h3>고객센터</h3>
+            </div>
+            <div class="modal-actions">
+                <div class="contact-section">
+                    <div class="contact-title">
+                        온라인 상담
+                    </div>
+                    <span class="contact-subtitle">온라인 상담 ↗</span>
+                    <p class="contact-desc">제품에 대한 온라인 채팅 및 원격 상담을 하실 수 있습니다.</p>
+                </div>
+                <div class="contact-section">
+                    <div class="contact-title">
+                        전화 상담
+                    </div>
+                    <span class="contact-subtitle">일반상담</span>
+                    <p class="contact-time">월~금요일 (오전9시 ~ 오후6시)<br>토요일 (오전9시 ~ 오후1시)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

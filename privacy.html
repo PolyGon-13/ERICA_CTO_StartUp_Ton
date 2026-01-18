@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개인정보 처리방침 | AUTOSLOT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .terms-content {
+            padding: 120px 0;
+            min-height: 80vh;
+        }
+
+        .terms-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+
+        .terms-box {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            line-height: 1.8;
+            color: #333;
+        }
+
+        .terms-box h2 {
+            font-size: 1.5rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: #111;
+        }
+
+        .terms-box p {
+            margin-bottom: 15px;
+        }
+
+        .terms-box ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin-bottom: 15px;
+        }
+
+        .terms-box li {
+            margin-bottom: 8px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">AUTOSLOT</a>
+            <div class="nav-links">
+                <a href="index.html#features">기능</a>
+                <a href="index.html#solution">솔루션</a>
+                <a href="purchase.html" class="btn-primary-sm">문의하기</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container terms-content">
+        <h1>개인정보 처리방침</h1>
+        <div class="terms-box">
+            <h2>1. 개인정보의 처리 목적</h2>
+            <p>AUTOSLOT은 다음의 목적을 위하여 개인정보를 처리합니다. 처리하고 있는 개인정보는 다음의 목적 이외의 용도로는 이용되지 않습니다.</p>
+            <ul>
+                <li>주차 서비스 제공: 차량번호 인식을 통한 입출차 관리, 빈자리 안내 로봇 배정, 내 차 위치 찾기 기능 제공</li>
+                <li>서비스 개선: 주차장 혼잡도 분석 및 로봇 알고리즘 개선</li>
+                <li>마케팅 및 광고(선택): 로봇 디스플레이를 통한 맞춤형 정보 제공(동의 시)</li>
+            </ul>
+
+            <h2>2. 처리하는 개인정보의 항목</h2>
+            <p>회사는 서비스 제공을 위해 다음과 같은 개인정보를 수집할 수 있습니다.</p>
+            <ul>
+                <li>필수항목: 차량번호, 입출차 시간, 주차 위치 정보(구역 번호)</li>
+                <li>선택항목: 휴대전화번호(알림 서비스 신청 시)</li>
+                <li>자동수집항목: 서비스 이용 기록, 접속 로그, 쿠키</li>
+            </ul>
+
+            <h2>3. 개인정보의 처리 및 보유 기간</h2>
+            <ul>
+                <li>원칙적으로 개인정보 수집 및 이용목적이 달성된 후(예: 출차 완료 후 24시간 이내)에는 해당 정보를 지체 없이 파기합니다.</li>
+                <li>단, 관계 법령의 규정에 의하여 보존할 필요가 있는 경우(통신비밀보호법 등)에는 법령에서 정한 일정한 기간 동안 정보를 보관합니다.</li>
+            </ul>
+
+            <h2>4. 개인정보의 제3자 제공</h2>
+            <p>회사는 이용자의 동의 없이 개인정보를 외부에 제공하지 않습니다. 다만, 법령의 규정에 의거하거나 수사 목적으로 법령에 정해진 절차와 방법에 따라 수사기관의 요구가 있는 경우는 예외로
+                합니다.</p>
+
+            <h2>5. 이용자의 권리</h2>
+            <p>이용자는 언제든지 자신의 개인정보(차량번호 등)에 대한 삭제를 요청할 수 있으며, 회사는 이에 대해 지체 없이 조치합니다.</p>
+        </div>
+    </div>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo">AUTOSLOT</span>
+                    <p>대한민국 경기도 안산시 상록구 한양대학로 55</p>
+                </div>
+                <div class="footer-links">
+                    <a href="privacy.html" style="color: white; font-weight: bold;">개인정보 처리방침</a>
+                    <a href="terms.html">이용약관</a>
+                    <a href="#" onclick="openContactModal(event)">고객센터</a>
+                    <a href="company.html">회사 소개</a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2026 AUTOSLOT Inc. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <div id="contact-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="btn-close-modal" onclick="closeContactModal()">&times;</button>
+            <div class="modal-header">
+                <h3>고객센터</h3>
+            </div>
+            <div class="modal-actions">
+                <div class="contact-section">
+                    <div class="contact-title">
+                        온라인 상담
+                    </div>
+                    <span class="contact-subtitle">온라인 상담 ↗</span>
+                    <p class="contact-desc">제품에 대한 온라인 채팅 및 원격 상담을 하실 수 있습니다.</p>
+                </div>
+                <div class="contact-section">
+                    <div class="contact-title">
+                        전화 상담
+                    </div>
+                    <span class="contact-subtitle">일반상담</span>
+                    <p class="contact-time">월~금요일 (오전9시 ~ 오후6시)<br>토요일 (오전9시 ~ 오후1시)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

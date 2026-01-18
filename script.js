@@ -106,3 +106,28 @@ function togglePlan(type) {
         }
     }
 }
+/* Customer Center Modal Logic */
+function openContactModal(e) {
+    if (e) e.preventDefault();
+    const modal = document.getElementById('contact-modal');
+    if (modal) {
+        modal.classList.add('open');
+        document.body.style.overflow = 'hidden'; // Prevent background scrolling
+    }
+}
+
+function closeContactModal() {
+    const modal = document.getElementById('contact-modal');
+    if (modal) {
+        modal.classList.remove('open');
+        document.body.style.overflow = ''; // Restore scrolling
+    }
+}
+
+// Close modal when clicking outside
+document.addEventListener('click', (e) => {
+    const modal = document.getElementById('contact-modal');
+    if (modal && e.target === modal) {
+        closeContactModal();
+    }
+});

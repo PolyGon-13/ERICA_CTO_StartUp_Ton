@@ -739,6 +739,133 @@ html {
 /* Adjust toggle grid when inside product selection sidebar */
 .product-selection .plan-toggle-grid {
     margin: 0 0 30px 0;
+
     /* Remove auto margins for left alignment */
     max-width: 100%;
+}
+
+/* Customer Center Modal */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.modal-overlay.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content {
+    background: white;
+    padding: 60px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 900px;
+    text-align: left;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    transform: scale(0.9);
+    transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    position: relative;
+}
+
+.modal-overlay.open .modal-content {
+    transform: scale(1);
+}
+
+.modal-header {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.modal-header h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #1d1d1f;
+    margin: 0;
+}
+
+.modal-actions {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-between;
+}
+
+.contact-section {
+    flex: 1;
+    padding: 0 40px;
+}
+
+.contact-section:first-child {
+    border-right: 1px solid #e5e5e5;
+}
+
+.contact-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #1d1d1f;
+}
+
+.contact-subtitle {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    display: block;
+    border-bottom: 2px solid #1d1d1f;
+    padding-bottom: 4px;
+    display: inline-block;
+}
+
+.contact-desc {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.contact-time {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+.btn-close-modal {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #888;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-close-modal:hover {
+    color: #333;
+}
+
+/* SVG Icon styles */
+.icon {
+    width: 32px;
+    height: 32px;
+    stroke: currentColor;
+    stroke-width: 2;
+    fill: none;
 }
