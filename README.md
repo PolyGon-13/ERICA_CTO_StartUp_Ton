@@ -1,4 +1,10 @@
 ## ERICA_CTO_StartUp_Ton
+
+## 🏆 수상
+![3rd Prize](./docs/3nd_prize.jpg)
+* **ERICA CTO StartUp-Ton 3위(우수상) 수상**
+
+
 ## 🤖 주차 안내 로봇 솔루션
 > 대형 쇼핑몰 및 백화점의 고질적인 주차 혼잡 문제를 자율주행 로봇으로 해결하는 스마트 주차 가이드 솔루션
 
