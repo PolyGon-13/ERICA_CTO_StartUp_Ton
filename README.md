@@ -2,6 +2,7 @@
 
 ## 🏆 수상
 <img src="./docs/3nd_prize.jpg" width="50%">
+
 * **ERICA CTO StartUp-Ton 3위(우수상) 수상**
 
 
