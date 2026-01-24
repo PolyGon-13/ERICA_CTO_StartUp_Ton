@@ -4,7 +4,7 @@
 [![Unity 시뮬레이션](https://img.shields.io/badge/Unity%20시뮬레이션-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=AyfYfBuC5mg)
 
 
-> **"헤매지 말고 바로 주차하세요."** > 대형 쇼핑몰 및 백화점의 고질적인 주차 혼잡 문제를 자율주행 로봇으로 해결하는 스마트 주차 가이드 솔루션
+> 대형 쇼핑몰 및 백화점의 고질적인 주차 혼잡 문제를 자율주행 로봇으로 해결하는 스마트 주차 가이드 솔루션
 
 ---
 
