@@ -13,12 +13,12 @@
 
 ## 📂 Project Structure
 
-[![Unity 시뮬레이션](https://img.shields.io/badge/Unity%20시뮬레이션-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=AyfYfBuC5mg)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=AyfYfBuC5mg)
 * 로봇 동작 프로세스 시각화
 
 </br>
 
-[![Website](https://img.shields.io/badge/Website-Link-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://polygon-13.github.io/ERICA_CTO_StartUp_Ton/)
+[![Website](https://img.shields.io/badge/Website-Link-blue?logo=google-chrome&logoColor=white)](https://polygon-13.github.io/ERICA_CTO_StartUp_Ton/)
 * **`demo_application`**: 제품 상세페이지
 * **`demo_page`**: 로봇 수용 범위를 넘어선 차량들을 위한 **앱 연동 주차장 지도**
 
@@ -33,10 +33,3 @@
 
 * **빈자리로의 안내:** 로봇이 수용 가능한 범위 내의 차량을 빈자리까지 직접 안내
 * **주차장 지도 연동:** 로봇 수용 범위를 넘어선 경우, 전용 어플리케이션이나 웹 사이트 형태의 실시간 주차 지도를 통해 안내 (`demo_page` 브랜치 참고)
-
-<!--
-## 💰 비즈니스 모델 (Business Model)
-
-* **구매 옵션:**
-    * **구독형:** 월 이용료 30만 원 / 45만 원 (관리 서비스 포함)
-    * **일시불:** 1,800만 원 / 1,900만 원 (광고 패널 및 옵션에 따른 차등)
